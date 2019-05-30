@@ -1,1 +1,100 @@
-Hello !
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Bootstrap 4 Example</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="row">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="http://alamhasabie.github.io">About me</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Posts</a>
+						</li>
+				  </ul>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<div class = "container-fluid">
+				<div class = "row">
+					<div class="col-12">
+						<div class="jumbotron">
+							<h1>Alam Hasabie</h1> 
+							<p>A little page about me...</p> 
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div id="accordion">
+							<div class="card">
+								<div class="card-header">
+									<a class="card-link" data-toggle="collapse" href="#collapseOne">
+										Identitas
+									</a>
+								</div>
+								<div id="collapseOne" class="collapse" data-parent="#accordion">
+									<div class="card-body">
+										Halo, saya Nur Alam Hasabie (biasa dipanggil Alam)</br>
+										Saya adalah seorang mahasiswa Teknik Informatika ITB 2017
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+										Hobi dan Ketertarikan
+									</a>
+								</div>
+								<div id="collapseTwo" class="collapse" data-parent="#accordion">
+									<div class="card-body">
+										Bidang yang saya minati (atau tertarik) mencakup :
+											<ul>
+												<li>Pembelajaran Mesin</li>
+												<li>Data Science
+												<li>Pengembangan Web</li>
+												<li>Komputasi Kuantum</li>
+											</ul>
+										</br>
+										Saya adalah seorang pembelajar bahasa. Saya cukup menguasai bahasa Indonesia, Inggris, Spanyol dan Mandarin.
+										<br>
+										Saya juga senang berolahraga (terutama renang), membaca dan melakukan kegiatan bakti sosial.
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+										Kontak
+									</a>
+								</div>
+								<div id="collapseThree" class="collapse" data-parent="#accordion">
+									<div class="card-body">
+										<p><i class="fa fa-linkedin"></i>&nbsp;&nbsp;Alam Hasabie</p>
+										<p><i class="fa fa-facebook"></i>&nbsp;&nbsp;Alam Hasabie</p>
+										<p><i class="fa fa-github"></i>&nbsp;&nbsp;alamhasabie</p>
+										<p><i class="fa fa-gitlab" href="http://gitlab.com"></i>&nbsp;&nbsp;alamhasabie135</p>
+										<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;alamhasabie165@gmail.com</p>
+										<p><i class="fa fa-phone"></i>&nbsp;&nbsp;(+62)877-2267-9123</p>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
